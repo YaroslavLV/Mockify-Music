@@ -1,0 +1,7 @@
+# Xcode
+#
+# gitignore contributors
+
+## User settings
+xcuserdata/
+.DS_Store
