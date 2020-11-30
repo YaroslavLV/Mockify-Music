@@ -67,14 +67,12 @@ class LoginToMockify: BasePage {
         XCTContext.runActivity(named: "Проверяем наличие аллерта Что введен неверный логин") { _ in
             XCTAssertTrue(alertInvalidPassword.exists)
             XCTAssertTrue(staticTextInvalidUsername.exists)
-        }
-        
+        }        
     }
     func chowNavBarMockifyMusic () {
         XCTContext.runActivity(named: "Проверяем наличие навбара Mockify Music") { _ in
             XCTAssertTrue(navigationBarMockifyMusic.exists)
         }
-                
     }
     
     func clickButtonOkInAlertMissingCredentials () {
