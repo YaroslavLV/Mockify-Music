@@ -34,14 +34,14 @@ class LoginToMockify: BasePage {
     }
     
     func setUsername(username: String) {
-        XCTContext.runActivity(named: " Вводим имя пользователя") { _ in
+        XCTContext.runActivity(named: "Вводим имя пользователя") { _ in
             usernameTextField.tap()
             usernameTextField.typeText(username)
         }
     }
     
     func setPassword(password: String) {
-        XCTContext.runActivity(named: " Вводим пароль пользовател") { _ in
+        XCTContext.runActivity(named: "Вводим пароль пользовател") { _ in
             passwordSecureTextFields.tap()
             passwordSecureTextFields.typeText(password)
         }
